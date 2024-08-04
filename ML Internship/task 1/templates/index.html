@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Genre Predictor</title>
+</head>
+<body>
+    <h1>Movie Genre Predictor</h1>
+    <form action="/predict" method="post">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br><br>
+        <label for="year">Year:</label><br>
+        <input type="text" id="year" name="year"><br><br>
+        <label for="director">Director:</label><br>
+        <input type="text" id="director" name="director"><br><br>
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Predict Genre">
+    </form>
+</body>
+</html>
